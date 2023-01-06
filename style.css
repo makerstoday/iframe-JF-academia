@@ -1,20 +1,29 @@
 body{
     text-align: center;
-    background-color: rgb(224, 224, 216);
+    background-color: #0e0d0d;
+    
    
    
 }
 h1{
-    color: rgb(23, 24, 23);
+    color: rgb(250, 254, 250);
     font-size: 43px;
+    background-color: #000000;
+    height:150px;
+    align-items: center;
+    
+  
 }
  ul{
-    margin-top: 30px;
+    margin-top:0px;
     display: flex;
     flex-direction: row;
    justify-content: space-around;
+   padding: 15px;
+   list-style-type: none;
+   background-color: rgb(169, 235, 71);
    
 }
-li{
-    color: rgb(43, 247, 20);
+p{
+    color: #faf9f9;
 }
