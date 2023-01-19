@@ -1,11 +1,12 @@
 body{
     text-align: center;
-    background-color: #0e0d0d;
-    
-   
-   
+    background-color: #0e0d0d;   
 }
+
+
 h1{
+    display: flex;
+    padding: 0 500px;
     color: rgb(250, 254, 250);
     font-size: 43px;
     background-color: #000000;
@@ -20,10 +21,12 @@ h1{
     flex-direction: row;
    justify-content: space-around;
    padding: 15px;
+   list-style: none;
    list-style-type: none;
-   background-color: rgb(169, 235, 71);
+   border: #faf9f9;
    
 }
+
 p{
     color: #faf9f9;
 }
